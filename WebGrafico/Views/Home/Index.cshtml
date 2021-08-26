@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="conteudo">
+    <div class="top">
+        <h1>Canal Dev Net Core</h1>
+    </div>
+
+    <div class="div-menu">
+
+        <div class="item-menu">
+            <a asp-area="" asp-controller="Home" asp-action="Index1">Grafico Barras</a>
+        </div>
+
+        <div class="item-menu">
+            <a asp-area="" asp-controller="Home" asp-action="Index2">Grafico Porcentagem</a>
+        </div>
+
+        <div class="item-menu">
+            <a asp-area="" asp-controller="Home" asp-action="Index3">Barra Progress</a>
+        </div>
+
+        <div class="item-menu">
+            <a asp-area="" asp-controller="Home" asp-action="Index4">Botão Porcentagem</a>
+        </div>
+
+    </div>
+
+    <div class="rodape">
+
+    </div>
+
+</div>
+
+
+<link href="~/css/grafico.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/grafico.js"></script>

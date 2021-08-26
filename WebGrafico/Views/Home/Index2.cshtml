@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="conteudoBase">
+
+    <div class="top">
+        <div class="divbtnGrafico">
+            <input type="button" id="Adicionar" value="Adicionar 5" class="btnGrafico" />
+            <input type="button" id="Remover" value="Remover 5" class="btnGrafico" />
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <div class="cardGraficoBola">
+            <div class="bola">
+                <div class="pontuacao">
+                    <p id="porcentagemP">0%</p>
+                </div>
+            </div>
+            <h2>Valor em Porcentagem <span id="porcentagemSpan">0%</span></h2>
+        </div>
+    </div>
+
+    <div class="rodape">
+
+    </div>
+
+
+</div>
+<link href="~/css/grafico2.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/grafico2.js"></script>

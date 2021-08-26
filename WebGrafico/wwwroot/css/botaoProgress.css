@@ -1,0 +1,36 @@
+﻿.container-botao {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 5px 15px #808080;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-progress {
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    background: #968ff3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.porcentagem {
+    height: 45px;
+    border-radius: 7px;
+    background: #695feb;
+    margin-right: auto;
+    transition: width 0.5s;
+}
+
+.descricao-btn {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}

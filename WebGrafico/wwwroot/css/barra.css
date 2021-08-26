@@ -1,0 +1,38 @@
+﻿.container-barra-progress {
+    width: 500px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 0 10px 16px 0 #808080;
+}
+
+.barra-progress-vazia {
+    width: 78%;
+    height: 9px;
+    margin: auto;
+    background: beige;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.barra-progress {
+    height: 5px;
+    border-radius: 10px;
+    background: aqua;
+    transition : width 0.5s;
+}
+
+.porcentagem-barra-progress {
+    margin-left: auto;
+    width: 60px;
+    height: 60px;
+    background: aliceblue;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    font-family: cursive;
+}
